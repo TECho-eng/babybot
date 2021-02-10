@@ -15,4 +15,4 @@ npm i got
 wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-ocr/tessdata/blob/master/ind.traineddata?raw=true"
 npm install
 
-echo "[*] SUKSES BRO SILAHKAN KETIK \"node index.js\" JANGAN LUPA SUBREK CHANNEL GW"
+echo "[*] SUCCESS BRO PLEASE TYPE \"node index.js\" wa.me/917356145338"
