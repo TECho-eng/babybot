@@ -1,7 +1,7 @@
 {
-  "name": "COLONYBOT",
+  "name": "CHIKKUBOT",
   "version": "1.0.0",
-  "description": "Whataapp COLONYBOT",
+  "description": "Whataapp CHIKKUBOT",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -16,12 +16,12 @@
   "author": "CHIKKU",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TECho-eng/COLONYBOT.git"
+    "url": "git+https://github.com/TECho-eng/CHIKKUBOT.git"
   },
   "bugs": {
-    "url": "https://github.com/TECho-eng/COLONYBOT/babybot/issues"
+    "url": "https://github.com/TECho-eng/CHIKKUBOT/babybot/issues"
   },
-  "homepage": "https://github.com/TECho-eng/COLONYBOT/readme",
+  "homepage": "https://github.com/TECho-eng/CHIKKUBOT/readme",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "^3.3.0",
