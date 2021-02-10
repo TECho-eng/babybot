@@ -1,45 +1,45 @@
 const cara = (pushname, prefix, botName, ownerName) => { 
-	return `🔰 -----[ *PANDUAN PENGGUNAAN ${botName}* ]----- 🔰
+	return `🔰 -----[ *use ${botName}* ]----- 🔰
 Hallo, ${pushname} 👋
-Berikut adalah cara penggunaan *${botName}*
+read and use *${botName}*
          ────────────────
-Kalo gak paham tuh baca dulu -_-
+ussage-_-
          ────────────────
 ➸ *${prefix}sticker*
-Kirim gambar/video dengan caption sticker
+Send pictures / videos with caption stickers
 ➸ *${prefix}ttp*
-Text to sticker contoh : ${prefix}ttp Lann ID
+Text to sticker examble : ${prefix}ttp Lann ID
 ➸ *${prefix}tts*
-Suara google contoh : ${prefix}tts id Hallo Ramlan
+Google voice example : ${prefix}tts id hello chikku
 ➸ *${prefix}toimg*
-Reply sticker yang mau dijadiin image
+Reply to the sticker that you want to make into the image
 ➸ *${prefix}nulis*
-Untuk menulis dibuku
+To write a book
 ➸ *${prefix}stalkig*
-Stalking instagram contoh : ${prefix}stalkig iamramlan_
+Stalking instagram examble : ${prefix}stalkig _._wr0ng.__.m4k3r_._
 ➸ *${prefix}quotes*
 Random quotes
 ➸ *${prefix}bikinquote*
-Membuat quotes contoh : ${prefix}bikinquote Kamu gay & Ramlan
+Make example quotes : ${prefix}makequote You're gay & chikku
 ➸ *${prefix}play*
-Mendownload lagu dari youtube bisa menggunakan text atau link
+Downloading songs from YouTube can use text or links
 ➸ *${prefix}yutubdl*
-Mendownload video dari youtube, gunakan link ya kak
+Download videos from YouTube, use the link
 ➸ *${prefix}tiktod*
-Mendownload video tiktok, gunakan link kak
+Download videos from TikTok,use the link
 ➸ *${prefix}hartatahta*
-Membuat lomgo, contoh : ${prefix}hartatahta Nadia
+Making lomgo, for example : ${prefix}hartatahta pulse
 ➸ *${prefix}pornhub*
 Membuat logo, contoh : ${prefix}pornhub Ramlan & Hub
-Note : untuk logo maker / image maker jika undefined berarti harus memakai &
+Note : for logo maker / image maker if undefined means you must use &
 ➸ *${prefix}fitnah*
-Only grup untuk fitnah orang, contoh : ${prefix}fitnah @tagtarget & Hai & Hai juga
+Only groups for slander people, for example : ${prefix}slander @tagtarget & Hai & Hai too
 ➸ *${prefix}mutual*
 Gacha nomor yang ada di database / yang menggunakan bot
          ────────────────
-Note : Sisanya gunain otak kalian aja cape w jelasin :)
+Note : The rest is for your brains, just can't explain :)
          ────────────────
-🔰 -----[ *TUMTOR BY RAMLAN ID* ]----- 🔰
+🔰 -----[ *BY JISHNUCHIKKU* ]----- 🔰
 `
 }
 
