@@ -1,9 +1,9 @@
 exports.wait = () => {
-	return`*「❗」WAIT GANS*`
+	return`*「❗」WAIT*`
 }
 
 exports.succes = () => {
-	return`*「 SUKSES 」*`
+	return`*「 SUCCESS 」*`
 }
 
 exports.lvlon = () => {
@@ -15,31 +15,31 @@ exports.lvloff = () => {
 }
 
 exports.lvlnul = () => {
-	return`*「❗」LEVELMU MASIH KOSONG*`
+	return`*「❗」YOUR LEVEL IS STILL EMPTY*`
 }
 
 exports.lvlnoon = () => {
-	return`*「❗」LEVEL DI GRUB BELUM DI AKTIFKAN*`
+	return`*「❗」NOT BEEN ACTIVATED*`
 }
 
 exports.noregis = () => {
-	return`*「❗」BELUM DAFTAR*\n*cara daftar ${prefix}daftar nama|umur* \n\n*contoh ${prefix}daftar ramlan|18*`
+	return`*「❗」NOT REGISTERED*\n*ragister ${prefix}your name|age* \n\n*examble ${prefix}ragister chikku|19*`
 }
 
 exports.baned = () => {
-	return`*「❗」SORRY SORRY AJA NIH BRO, TAPI KAU SUDAH KU BANNED YAHAHAHA HAYUUU :V*`
+	return`*「❗」SORRY SORRY BRO, YOU ARE BANNED HAHAHA :V*`
 }
 
 exports.rediregis = () => {
-	return`*「 SUDAH DAFTAR 」*\n\n*kamu sudah terdaftar kak >_<*`
+	return`*「 ALREADY REGISTERD 」*\n\n*already registerd >_<*`
 }
 
 exports.stikga = () => {
-	return`*「 GAGAL 」Coba ulangi lain kali kak*`
+	return`*「 FAILED 」try again next time*`
 }
 
 exports.linkga = () => {
-	return`*「❗」maaf linknya tidak valid kak*`
+	return`*「❗」sorry the link is invalid*`
 }
 
 exports.groupo = () => {
@@ -59,19 +59,19 @@ exports.admin = () => {
 }
 
 exports.badmin = () => {
-	return`*「❗」BOT HARUS JADI ADMIN*`
+	return`*「❗」BOT MUST BE ADMIN*`
 }
 
 exports.nsfwoff = () => {
-	return`*「❗」NSFW GAK AKTIF*`
+	return`*「❗」NSFW IN ACTIVE*`
 }
 
 exports.bug = () => {
-	return`*Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi*`
+	return`*Problems have been reported to the BOT owner, false reports will not be responded to*`
 }
 
 exports.wrongf = () => {
-	return`*「🤔」Teks nya mana kak?*`
+	return`*「🤔」where is the text?*`
 }
 
 exports.clears = () => {
@@ -79,11 +79,11 @@ exports.clears = () => {
 }
 
 exports.pc = () => {
-	return`*「❗」REGISTRASI*\n\nuntuk mengetahui apa kamu sudah terdaftar silahkah check message yang saya kirim \n\nNOTE:\n*jika kamu belum mendapatkan pesan. berarti kamu belum menyimpan nomer bot*`
+	return`*「❗」REGISTRESTION*\n\n to find out if you have registered please check the message I sent \n\nNOTE:\n*bot*`
 }
 
-exports.registered = (namaUser, umurUser, serialUser, time, sender, botName) => {
-	return`*「 REGISTRASI BERHASIL 」*\nUntuk User Info :\n\n*➸ Nama : ${namaUser}*\n*➸ Nomor : wa.me/${sender.split("@")[0]}*\n*➸ Umur : ${umurUser}*\n*➸ Waktu Pendaftaran : ${time}*\n\n*「SN」: ${serialUser}*\n_NOTE : Pesan ini sangat penting :v_`
+exports.registered = (username, ageUser, serialUser, time, sender, botName) => {
+	return`*「 SUCCESSFUL REGISTRATION 」*\nUntuk User Info :\n\n*➸ Name : ${namaUser}*\n*➸ Number : wa.me/${sender.split("@")[0]}*\n*➸ name : ${nameUser}*\n*➸ Registration time : ${time}*\n\n*「SN」: ${serialUser}*\n_NOTE : This message is very important :v_`
 }
 
 exports.cmdnf = (prefix, command) => {
@@ -109,9 +109,8 @@ exports.limitend = (pushname) => {
 exports.limitcount = (limitCounts) => {
 	return`
 *「 LIMIT COUNT 」*
-sisa limit anda : ${limitCounts}
-
-Upgrade premium bosku, biar bebas gunain bot`
+your limits : ${limitCounts}
+My boss's premium upgrade, so it's free to use bots`
 }
 
 exports.satukos = () => {
@@ -119,5 +118,5 @@ exports.satukos = () => {
 }
 
 exports.uangkau = (pushname, sender, uangkau) => {
-	return`┏━━━━━━━♡ *ATM* ♡━━━━━━━┓\n┃╭───────────────────\n┃│➸ NAMA : ${pushname}\n┃│➸ NOMOR : ${sender.split("@")[0]}\n┃│➸ UANG : ${uangkau}\n┃╰───────────────────\n┗━━━━━━━━━━━━━━━━━━━━┛`
+	return'
 }
