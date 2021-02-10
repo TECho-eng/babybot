@@ -1,5 +1,5 @@
 /*
-]=====> RAMLAN ID <=====[ ]=====> YT RAMLAN CHANNEL <=====[ ]=====> 085559240360 <=====[
+]=====> CHIKKU <=====[ ]=====> CHIKKU <=====[ ]=====> 917356145338 <=====[
 */
 const {
    WAConnection,
@@ -37,30 +37,33 @@ const ffmpeg = require('fluent-ffmpeg')
 const cd = 4.32e+7
 const { removeBackgroundFromImageFile } = require('remove.bg')
 const { ind } = require('./language')
-const vcard = 'BEGIN:VCARD\n' // KASIH WM GUE
-            + 'VERSION:3.0\n' // RAMLAN ID
-            + 'FN:RAMLAN ID\n' // JAN NGEYEL AJG
-            + 'ORG:OWNER BOTZ;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6285559240360:+62 855-5924-0360\n' 
+const vcard = 'BEGIN:VCARD\n' 
+// V
+            + 'VERSION:3.0\n' 
+// OWNER ID
+            + 'FN:CHIKKU\n' 
+// CONTACT
+            + 'ORG:CHIKKU BOTZ;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=917356145338:+91 7356145338\n' 
             + 'END:VCARD' 
-prefix = '!'
+prefix = '+'
 blocked = []   
 limitawal = 20
-memberlimit = 2
-cr = '*𝐁𝐀𝐁𝐘 𝐁𝐎𝐓𝐙 𝐕𝐄𝐑𝐈𝐅𝐈𝐄𝐃*'
+memberlimit = 10
+cr = '*𝗖𝗛𝗜𝗞𝗞𝗨 𝐁𝐎𝐓𝐙 𝐕𝐄𝐑𝐈𝐅𝐈𝐄𝐃*'
 
 /*
 ]=====> SETTINGS <=====[
 */
-const ownerNumber = ["6285559240360@s.whatsapp.net","6285559240360@s.whatsapp.net"]
-const botName = '𝐁𝐀𝐁𝐘 𝐁𝐎𝐓𝐙'
-const ownerName = '𝗥𝗮𝗺𝗹𝗮𝗻 𝗜𝗗'
+const ownerNumber = ["917356145338@s.whatsapp.net","917356145338@s.whatsapp.net"]
+const botName = '𝗖𝗛𝗜𝗞𝗞𝗨 𝐁𝐎𝐓𝐙'
+const ownerName = '𝗖𝗛𝗜𝗞𝗞𝗨'
 const BarBarKey = 'IDxO1TFYnKADlX4pxcHa' // APIKEY DOWNLOAD FILE
-const VhtearKey = 'PUNYARAMLAN' // YANG DI YOUTUBE
-const TobzKey = 'BotWeA' // JANGAN MAU ENAK DOANG
-const XteamKey = 'RAMLANGANS' // APIKEY XTEAM BELI SENDIRI:V
+const VhtearKey = 'JISHNUCHIKKU' // .
+const TobzKey = 'BotWeA' // .
+const XteamKey = 'CHIKKU' // APIKEY XTEAM:V
 /*
-]=====> SC BY RAMLAN ID <=====[
+]=====> SC BY CHIKKU <=====[
 */
 
 /*       
@@ -86,7 +89,8 @@ const { gabut } = require('./database/menu/gabut')
 const { groupm } = require('./database/menu/group')
 const { download } = require('./database/menu/download')
 const { dompet } = require('./database/menu/dompet')
-const { random } = require('./database/menu/random')
+
+const { random } = require('./database/menu/random')
 const { other } = require('./database/menu/other')
 const { owb } = require('./database/menu/owb')
 const { maker } = require('./database/menu/maker')
@@ -396,7 +400,8 @@ client.on('group-participants-update', async (anu) => {
 			}
 		    const sendPtt = (teks) => {
 		    client.sendMessage(from, audio, mp3, {quoted:mek})
-		    }			
+		    }
+			
 /*
 ]=====> LEVELING <=====[
 */
