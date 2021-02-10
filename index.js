@@ -1833,7 +1833,7 @@ break
 						for (let _ of anu) {
 							sendMess(_.jid, `*「 BC GROUP 」*\n\n➸ Dari Grup : ${groupName}\n➸ Pengirim : wa.me/${(sender.split('@')[0])}\n➸ Pesan : ${body.slice(6)}`)
 						}
-						reply('*「 SUKSES BOSKU 」*')
+						reply('*「 SUCCESS BOSKU 」*')
 					}
 					break
 					case 'setreply':
@@ -1848,7 +1848,7 @@ break
 					if (args.length < 1) return
 					if (!isOwner) return reply(ind.ownerb())
 					prefix = args[0]
-					reply(`*「 SUKSES 」* Prefix jadi ➸ : ${prefix}`)
+					reply(`*「 SUCCESS 」* Prefix so ➸ : ${prefix}`)
 					break
 				case 'clearall':
 					if (!isOwner) return reply(ind.ownerb())
@@ -1880,7 +1880,7 @@ break
 					enmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 					media = await client.downloadAndSaveMediaMessage(enmedia)
 					await client.updateProfilePicture(botNumber, media)
-					reply('Makasih profil barunya bosku😗')
+					reply('Thanks for the new profile, my boss😗')
 					break
 				case 'clone':
 					if (!isGroup) return reply(ind.groupo())
@@ -1954,16 +1954,9 @@ tujuh = fs.readFileSync('./assets/sound7.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break														
 /*
-]=====> TQTO <=====[
-> RAMLAN ID
-> REVOER ID
-> ARIS ID
-> NADIA CANS
-> NAZWA
-> VHTEAR
-> TOBZ
-> MHANKBARBAR
-> All Creator Bot WhatsApp
+]=====> THANKS <=====[
+> CHIKKU
+> Creator Bot WhatsApp
 */				
 			if (isGroup && !isCmd && isSimi && budy != undefined) {
 						console.log(budy)
